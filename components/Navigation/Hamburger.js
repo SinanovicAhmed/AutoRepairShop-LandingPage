@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import ContactSVG from './ContactSVG';
+import ContactSVG from '../assets/ContactSVG';
 
 const HamburgerMenu = () => {
   const [active, setActive] = useState(false);
@@ -19,7 +19,7 @@ const HamburgerMenu = () => {
         <Image src="/menuicon.svg" alt="me" width="25px" height="25px" />
       </div>
       {active && (
-        <ul className="absolute right-0 top-[80px] bg-white w-screen flex-col shadow-lg shadow-black-20/5 p-[20px] lg:hidden">
+        <ul className="absolute z-10 right-0 top-[80px] bg-white w-screen flex-col shadow-lg shadow-black-20/5 p-[20px] lg:hidden">
           <li className="mb-[15px] w-full flex justify-center font-gothic font-bold text-[16px] hover:cursor-pointer">
             SERVICES
           </li>

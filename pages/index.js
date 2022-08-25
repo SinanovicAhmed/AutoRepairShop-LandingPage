@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Navigation from '../components/Navigation';
+import Navigation from '../components/Navigation/Navigation';
+import Hero from '../components/Hero/Hero';
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
+      <Hero />
     </div>
   );
 }
