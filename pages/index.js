@@ -5,6 +5,7 @@ import Navigation from '../components/Navigation/Navigation';
 import Hero from '../components/Hero/Hero';
 import History from '../components/HIstory/History';
 import Service from '../components/OurService/Service';
+import ServiceContact from '../components/OurService/ServiceContact';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Hero />
       <History />
       <Service />
+      <ServiceContact />
     </div>
   );
 }

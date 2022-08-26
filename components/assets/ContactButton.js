@@ -6,7 +6,7 @@ const ContactButton = (props) => {
   const style =
     props.color === 'black'
       ? 'border-black hover:bg-black hover:text-white'
-      : 'bg-[#407AC1] text-white';
+      : 'bg-[#407AC1] text-white hover:border-solid hover:border-[1px] hover:border-[#407AC1] hover:text-[#407AC1] hover:bg-white';
   return (
     <button
       onMouseEnter={() => {
