@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import ContactSVG from '../assets/ContactSVG';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const HamburgerMenu = () => {
   const [active, setActive] = useState(false);

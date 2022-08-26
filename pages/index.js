@@ -1,9 +1,18 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import { useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 import Navigation from '../components/Navigation/Navigation';
 import Hero from '../components/Hero/Hero';
+import History from '../components/HIstory/History';
+import Service from '../components/OurService/Service';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -13,6 +22,8 @@ export default function Home() {
       </Head>
       <Navigation />
       <Hero />
+      <History />
+      <Service />
     </div>
   );
 }
