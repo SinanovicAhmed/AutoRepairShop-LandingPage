@@ -6,6 +6,8 @@ import Hero from '../components/Hero/Hero';
 import History from '../components/HIstory/History';
 import Service from '../components/OurService/Service';
 import ServiceContact from '../components/OurService/ServiceContact';
+import WhyUs from '../components/assets/WhyUs/WhyUs';
+import Contact from '../components/assets/WhyUs/Contact';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,6 +28,8 @@ export default function Home() {
       <History />
       <Service />
       <ServiceContact />
+      <WhyUs />
+      <Contact />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const ServiceContact = () => {
   return (
-    <div className="w-[100%] relative">
+    <div className="w-[100%] relative" id="about">
       <div className="absolute bottom-[-100px] xl:bottom-0">
         <Image src="/brand-names.png" alt="me" width="825px" height="42px" />
       </div>
@@ -31,7 +31,7 @@ const ServiceContact = () => {
         </div>
         <div
           className="mt-[70px] max-w-[420px] lg:mt-[0px] lg:min-w-[340px] lg:pl-[20px] m-auto relative"
-          data-aos="fade-left">
+          data-aos="fade-up">
           <Image src="/service-mechanic.png" alt="me" width="490px" height="690px" />
           <div className="absolute w-[20%] h-[20%] bottom-0 left-[-35px] lg:left-[-25px] z-665">
             <Image src="/service-star.png" alt="me" width="140px" height="140px" />

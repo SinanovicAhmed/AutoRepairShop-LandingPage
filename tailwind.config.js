@@ -18,6 +18,9 @@ module.exports = {
             animationtimingfunction: 'cubic-bezier(0, 0, 0.2, 1)'
           }
         }
+      },
+      backgroundImage: {
+        background: 'linear-gradient(248.82deg, #000000 58.79%, #393939 110.14%, #272727 110.14%);'
       }
     }
   },

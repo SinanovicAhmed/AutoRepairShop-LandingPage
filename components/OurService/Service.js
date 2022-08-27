@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 
 const Service = () => {
   return (
-    <div className="w-[80%] m-auto">
+    <div className="w-[80%] m-auto" id="services">
       <h2 className="text-center text-[44px] font-gothic text-bold pb-[75px]" data-aos="fade-up">
         Our <span className="text-[#407AC1]">Services</span>
       </h2>
