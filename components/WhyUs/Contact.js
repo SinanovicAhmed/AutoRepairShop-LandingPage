@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ContactButton from '../ContactButton';
+import ContactButton from '../assets/ContactButton';
 
 const Contact = () => {
   return (

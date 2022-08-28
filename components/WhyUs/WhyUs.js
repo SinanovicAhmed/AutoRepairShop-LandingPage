@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 
 const WhyUs = () => {
   return (
-    <div clasName="w-[100%] bg-" style={{ backgroundImage: 'url(CarBg.png)' }}>
+    <div className="w-[100%]" style={{ backgroundImage: 'url(CarBg.png)' }}>
       <div className="w-[80%] max-w-[1400px] m-auto pt-[175px]">
         <h1
           className="text-center md:text-start text-[40px] text-white font-gothic font-bold mb-[50px]"
