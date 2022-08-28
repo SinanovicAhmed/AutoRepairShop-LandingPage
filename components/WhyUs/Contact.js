@@ -70,7 +70,12 @@ const Contact = () => {
         <div
           className="w-[80%] lg:w-[60%] lg:max-w-[600px] flex flex-col pt-[100px] lg:pt-[30px] lg:pl-[20px]"
           data-aos="fade-up">
-          <Image src="/map.png" alt="me" width="620px" height="540px" loading="lazy" />
+          <iframe
+            width="100%"
+            height="600"
+            scrolling="no"
+            loading="lazy"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=west%20palm%20beach+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
           <div
             className="w-[100%] flex flex-col md:flex-row items-center pt-[25px]"
             data-aos="fade-up">

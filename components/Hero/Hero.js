@@ -1,6 +1,6 @@
 import ContactButton from '../assets/ContactButton';
 import Image from 'next/image';
-
+import Link from 'next/link';
 const Hero = () => {
   return (
     <div
@@ -17,18 +17,20 @@ const Hero = () => {
         </p>
         <div className="flex items-center">
           <ContactButton mainColor="black" secondaryColor="white" color="black" />
-          <button className="flex items-center ml-[23px]">
-            <p className="pr-[11px] font-gothic font-[16px] font-bold text-[#407AC1]">Services</p>
+          <Link href="#services">
+            <button className="flex items-center ml-[25px] hover:ml-[30px] transition-all ">
+              <p className="pr-[11px] font-gothic font-[16px] font-bold text-[#407AC1]">Services</p>
 
-            <Image
-              src="/arrow.svg"
-              alt="me"
-              width="10px"
-              height="20px"
-              className="animate-bounce"
-              layout="fixed"
-            />
-          </button>
+              <Image
+                src="/arrow.svg"
+                alt="me"
+                width="10px"
+                height="20px"
+                className="animate-bounce"
+                layout="fixed"
+              />
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col justify-around xl:flex-row lg:justify-between lg:w-[50%] lg:min-w-[450px]">

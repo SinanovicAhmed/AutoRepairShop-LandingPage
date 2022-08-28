@@ -11,7 +11,6 @@ import Service from '../components/OurService/Service';
 import History from '../components/HIstory/History';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { Suspense } from 'react';
 
 export default function Home() {
   useEffect(() => {
@@ -29,13 +28,11 @@ export default function Home() {
       <Navigation />
       <Hero />
       <ScrollBackToTop />
-      <Suspense fallback={`Loading...`}>
-        <History />
-        <Service />
-        <ServiceContact />
-        <WhyUs />
-        <Contact />
-      </Suspense>
+      <History />
+      <Service />
+      <ServiceContact />
+      <WhyUs />
+      <Contact />
     </div>
   );
 }
