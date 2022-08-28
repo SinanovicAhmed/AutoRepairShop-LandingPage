@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 const Service = () => {
   return (
@@ -33,7 +31,7 @@ const Service = () => {
           </div>
         </div>
         <div className="max-w-[500px] px-[20px]" data-aos="fade">
-          <Image src="/car-services.svg" alt="me" width="1964px" height="1646px" />
+          <Image src="/car-services.svg" alt="me" width="1964px" height="1646px" loading="lazy" />
         </div>
 
         <div className="w-[240px] flex flex-col md:flex-row md:w-[100%] lg:flex-col md:justify-between">

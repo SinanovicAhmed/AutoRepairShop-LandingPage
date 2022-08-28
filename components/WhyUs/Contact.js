@@ -16,21 +16,53 @@ const Contact = () => {
             malesuada nec. Faucibus quisque quis a quam. Semper arcu ac.
           </p>
           <div className="flex flex-center items-center py-[15px]">
-            <Image src="/locationIcon.png" alt="me" width="16px" height="20px" className="m-auto" />
+            <Image
+              src="/locationIcon.png"
+              alt="me"
+              width="16px"
+              height="20px"
+              className="m-auto"
+              loading="lazy"
+              layout="fixed"
+            />
             <p className="text-white text-[16px] font-roboto pl-[10px]">
               455 Lentz Ct, Lansing, MI 48917, United States
             </p>
           </div>
           <div className="flex flex-center items-center py-[15px]">
-            <Image src="/phoneIcon.png" alt="me" width="19px" height="19px" className="m-auto" />
+            <Image
+              src="/phoneIcon.png"
+              alt="me"
+              width="19px"
+              height="19px"
+              className="m-auto"
+              loading="lazy"
+              layout="fixed"
+            />
             <p className="text-white text-[16px] font-roboto pl-[10px]">(517) 897-8136</p>
           </div>
           <div className="flex flex-center items-center py-[15px]">
-            <Image src="/mailIcon.png" alt="me" width="19px" height="15px" className="m-auto" />
+            <Image
+              src="/mailIcon.png"
+              alt="me"
+              width="19px"
+              height="15px"
+              className="m-auto"
+              loading="lazy"
+              layout="fixed"
+            />
             <p className="text-white text-[16px] font-roboto pl-[10px]">sasha@repair.com</p>
           </div>
           <div className="flex flex-center items-center pt-[15px] pb-[30px]">
-            <Image src="/clockIcon.png" alt="me" width="19px" height="19px" className="m-auto" />
+            <Image
+              src="/clockIcon.png"
+              alt="me"
+              width="19px"
+              height="19px"
+              className="m-auto"
+              loading="lazy"
+              layout="fixed"
+            />
             <p className="text-white text-[16px] font-roboto pl-[10px]">Mon - Sun: 9AM - 7PM</p>
           </div>
           <ContactButton mainColor="white" secondaryColor="#407AC1" color="blue" />
@@ -38,7 +70,7 @@ const Contact = () => {
         <div
           className="w-[80%] lg:w-[60%] lg:max-w-[600px] flex flex-col pt-[100px] lg:pt-[30px] lg:pl-[20px]"
           data-aos="fade-up">
-          <Image src="/map.png" alt="me" width="620px" height="540px" />
+          <Image src="/map.png" alt="me" width="620px" height="540px" loading="lazy" />
           <div
             className="w-[100%] flex flex-col md:flex-row items-center pt-[25px]"
             data-aos="fade-up">
@@ -46,11 +78,46 @@ const Contact = () => {
               JOIN US ON SOCIAL MEDIA
             </h2>
             <div className="flex items-center justify-between items-center w-[80%] md:w-[60%]">
-              <Image src="/instaIcon.png" alt="me" width="30px" height="30px" />
-              <Image src="/facebookIcon.png" alt="me" width="30px" height="30px" />
-              <Image src="/pinterestIcon.png" alt="me" width="30px" height="30px" />
-              <Image src="/iconContact.png" alt="me" width="30px" height="30px" />
-              <Image src="/googleIcon.png" alt="me" width="30px" height="30px" />
+              <Image
+                src="/instaIcon.png"
+                alt="me"
+                width="30px"
+                height="30px"
+                loading="lazy"
+                layout="fixed"
+              />
+              <Image
+                src="/facebookIcon.png"
+                alt="me"
+                width="30px"
+                height="30px"
+                loading="lazy"
+                layout="fixed"
+              />
+              <Image
+                src="/pinterestIcon.png"
+                alt="me"
+                width="30px"
+                height="30px"
+                loading="lazy"
+                layout="fixed"
+              />
+              <Image
+                src="/iconContact.png"
+                alt="me"
+                width="30px"
+                height="30px"
+                loading="lazy"
+                layout="fixed"
+              />
+              <Image
+                src="/googleIcon.png"
+                alt="me"
+                width="30px"
+                height="30px"
+                loading="lazy"
+                layout="fixed"
+              />
             </div>
           </div>
         </div>

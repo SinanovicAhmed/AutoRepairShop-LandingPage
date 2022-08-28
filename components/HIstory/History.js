@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 const History = () => {
   return (
@@ -10,32 +8,33 @@ const History = () => {
           <h2
             className="text-white text-[44px] text-bold font-gothic pl-[16px]"
             data-aos="fade-right">
-            <Image src="/history-icon.png" alt="me" width="24px" height="24px" /> Since 1997
+            <Image src="/history-icon.png" alt="me" width="24px" height="24px" layout="fixed" />{' '}
+            Since 1997
           </h2>
         </div>
         <div
-          className="w-[300px] h-[120px] sm:w-[350px] sm:h-[170px] bg-[#407AC1] absolute left-4 bottom-0"
+          className="w-[320px] h-[130px] sm:w-[350px] sm:h-[160px] bg-[#407AC1] ml-[-160px] sm:ml-[-175px] md:ml-[0px] left-[53%] md:left-4 bottom-0 absolute"
           data-aos="fade-up"></div>
         <div
-          className="w-[300px] h-[120px] sm:w-[350px] sm:h-[170px] absolute left-0 bottom-[-12px]"
+          className="w-[320px] h-[130px] sm:w-[350px] sm:h-[160px] ml-[-160px] sm:ml-[-175px] md:ml-[0px] left-[50%] md:left-0 bottom-[-12px] absolute"
           data-aos="fade-up">
           <Image src="/history-image.png" alt="me" width="350px" height="211px" />
         </div>
         <div className="flex flex-col lg:flex-row w-[50%] justify-around">
           <div className="flex flex-col items-center py-[20px]" data-aos="fade-left">
-            <Image src="/parts-icon.png" alt="me" width="23px" height="20px" />
+            <Image src="/parts-icon.png" alt="me" width="23px" height="20px" layout="fixed" />
             <h1 className="font-gothic text-[24px] font-bold text-white py-[5px]">30,000+</h1>
             <p className="text-white font-roboto text-[16px] text-center">Changed parts yearly</p>
           </div>
 
           <div className="flex flex-col items-center py-[20px]" data-aos="fade-left">
-            <Image src="/clients-icon.png" alt="me" width="26x" height="22px" />
+            <Image src="/clients-icon.png" alt="me" width="26x" height="22px" layout="fixed" />
             <h1 className="font-gothic text-[24px] font-bold text-white py-[5px]">10,000+</h1>
             <p className="text-white font-roboto text-[16px] text-center">Happy Clients</p>
           </div>
 
           <div className="flex flex-col items-center py-[20px]" data-aos="fade-left">
-            <Image src="/vehicles-icon.png" alt="me" width="27px" height="18px" />
+            <Image src="/vehicles-icon.png" alt="me" width="27px" height="18px" layout="fixed" />
             <h1 className="font-gothic text-[24px] font-bold text-white py-[5px]">15,000+</h1>
             <p className="text-white font-roboto text-[16px] text-center">Fixed Vehicles</p>
           </div>

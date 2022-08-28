@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <div className="w-100% bg-white sticky top-0 z-10 drop-shadow-lg">
       <div className="w-[80%] max-w-[1400px] h-[70px] m-auto mt-[10px] flex justify-between items-center">
-        <Image src="/SashaLogo.png" alt="me" width="196" height="66" priority />
+        <Image src="/SashaLogo.png" alt="me" width="196" height="66" priority layout="fixed" />
         <ul className="hidden w-[40%] min-w-[400px] lg:flex items-center justify-around font-gothic font-bold text-[16px]">
           <Link href="#services">
             <a>SERVICES</a>

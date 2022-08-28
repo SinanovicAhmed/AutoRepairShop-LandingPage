@@ -1,12 +1,10 @@
 import ContactButton from '../assets/ContactButton';
 import Image from 'next/image';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 const ServiceContact = () => {
   return (
-    <div className="w-[100%] relative" id="about">
-      <div className="absolute bottom-[-100px] xl:bottom-0">
+    <div className="w-[100%] relative pb-[70px] xl:pb-[20px]" id="about">
+      <div className="absolute bottom-0 xl:bottom-0">
         <Image src="/brand-names.png" alt="me" width="825px" height="42px" />
       </div>
       <div className="w-[80%] flex flex-col lg:flex-row m-auto justify-between items-begin mt-[100px] md:mt-[120px] lg:mt-[140px]">

@@ -2,8 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import ContactSVG from '../assets/ContactSVG';
 import Link from 'next/link';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 import { motion, AnimatePresence } from 'framer-motion';
 const HamburgerMenu = () => {
   const [active, setActive] = useState(false);
@@ -19,7 +18,14 @@ const HamburgerMenu = () => {
         onClick={() => {
           setActive(!active);
         }}>
-        <Image src="/menuicon.svg" alt="me" width="25px" height="25px" className="cursor-pointer" />
+        <Image
+          src="/menuicon.svg"
+          alt="me"
+          width="25px"
+          height="25px"
+          className="cursor-pointer"
+          layout="fixed"
+        />
       </div>
       <AnimatePresence>
         {active && (
