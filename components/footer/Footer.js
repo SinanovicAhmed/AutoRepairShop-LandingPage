@@ -48,7 +48,7 @@ const Footer = () => {
           <Image src="/footerCar.png" alt="me" width="600px" height="295px" className="z-0" />
         </div>
         <div className="absolute bottom-0 left-0">
-          <p className="text-[14px] text-[#00000070]">
+          <p className="text-[14px] text-[#00000090]">
             Copyright | © 2022 Sasha's Auto Repair All rights reserved. Made by BlueDuck.at
           </p>
         </div>

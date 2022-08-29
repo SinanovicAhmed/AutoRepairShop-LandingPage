@@ -17,7 +17,7 @@ const Hero = () => {
           <ContactButton mainColor="black" secondaryColor="white" color="black" />
           <Link href="#services">
             <button className="flex items-center ml-[25px] hover:ml-[30px] transition-all drop-shadow-md">
-              <p className="pr-[11px] font-gothic font-[16px] font-bold text-[#407AC1]">Services</p>
+              <p className="pr-[11px] font-gothic font-[16px] font-bold text-black">Services</p>
 
               <Image
                 src="/arrow.svg"
