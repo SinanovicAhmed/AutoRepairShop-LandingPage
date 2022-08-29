@@ -71,58 +71,68 @@ const Contact = () => {
           className="w-[100%] lg:w-[60%] lg:max-w-[600px] flex flex-col pt-[100px] lg:pt-[30px] lg:pl-[20px]"
           data-aos="fade-up">
           <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114018.3083363787!2d-80.19907990878825!3d26.74207405265399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d5ccb595adc1%3A0x15efc7b51fe16bde!2sWest%20Palm%20Beach%2C%20Florida%2C%20Sjedinjene%20Ameri%C4%8Dke%20Dr%C5%BEave!5e0!3m2!1sbs!2sba!4v1661724584559!5m2!1sbs!2sba"
             width="100%"
-            height="400"
-            scrolling="no"
-            loading="lazy"
-            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=west%20palm%20beach+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            height="450"
+            title="location map"
+            loading="lazy"></iframe>
           <div
             className="w-[100%] flex flex-col md:flex-row items-center pt-[25px]"
             data-aos="fade-up">
             <h2 className="w-[100%] md:w-[40%] text-center md:text-start text-white text-[14px] md:text-[16px] font-roboto">
               JOIN US ON SOCIAL MEDIA
             </h2>
-            <div className="flex items-center justify-between items-center w-[80%] md:w-[60%]">
-              <Image
-                src="/instaIcon.png"
-                alt="me"
-                width="30px"
-                height="30px"
-                loading="lazy"
-                layout="fixed"
-              />
-              <Image
-                src="/facebookIcon.png"
-                alt="me"
-                width="30px"
-                height="30px"
-                loading="lazy"
-                layout="fixed"
-              />
-              <Image
-                src="/pinterestIcon.png"
-                alt="me"
-                width="30px"
-                height="30px"
-                loading="lazy"
-                layout="fixed"
-              />
-              <Image
-                src="/iconContact.png"
-                alt="me"
-                width="30px"
-                height="30px"
-                loading="lazy"
-                layout="fixed"
-              />
-              <Image
-                src="/googleIcon.png"
-                alt="me"
-                width="30px"
-                height="30px"
-                loading="lazy"
-                layout="fixed"
-              />
+            <div className="flex items-center justify-between items-center w-[80%] md:w-[60%] py-[10px]">
+              <div className="hover:translate-y-[-3px] transition-all cursor-pointer">
+                <Image
+                  src="/instaIcon.png"
+                  alt="me"
+                  width="30px"
+                  height="30px"
+                  loading="lazy"
+                  layout="fixed"
+                />
+              </div>
+              <div className="hover:translate-y-[-3px] transition-all cursor-pointer">
+                <Image
+                  src="/facebookIcon.png"
+                  alt="me"
+                  width="30px"
+                  height="30px"
+                  loading="lazy"
+                  layout="fixed"
+                />
+              </div>
+              <div className="hover:translate-y-[-3px] transition-all cursor-pointer">
+                <Image
+                  src="/pinterestIcon.png"
+                  alt="me"
+                  width="30px"
+                  height="30px"
+                  loading="lazy"
+                  layout="fixed"
+                />
+              </div>
+              <div className="hover:translate-y-[-3px] transition-all cursor-pointer">
+                <Image
+                  src="/iconContact.png"
+                  alt="me"
+                  width="30px"
+                  height="30px"
+                  loading="lazy"
+                  layout="fixed"
+                />
+              </div>
+              <div className="hover:translate-y-[-3px] transition-all cursor-pointer">
+                <Image
+                  src="/googleIcon.png"
+                  alt="me"
+                  width="30px"
+                  height="30px"
+                  loading="lazy"
+                  layout="fixed"
+                />
+              </div>
             </div>
           </div>
         </div>

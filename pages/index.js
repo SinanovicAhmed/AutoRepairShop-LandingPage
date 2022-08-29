@@ -9,6 +9,7 @@ import WhyUs from '../components/WhyUs/WhyUs';
 import ServiceContact from '../components/OurService/ServiceContact';
 import Service from '../components/OurService/Service';
 import History from '../components/HIstory/History';
+import Footer from '../components/footer/Footer';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -33,6 +34,7 @@ export default function Home() {
       <ServiceContact />
       <WhyUs />
       <Contact />
+      <Footer />
     </div>
   );
 }

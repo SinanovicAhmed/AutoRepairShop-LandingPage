@@ -3,9 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Hero = () => {
   return (
-    <div
-      id="hero"
-      className="flex flex-col-reverse items-center lg:items-start md:flex-row justify-between w-[80%] max-w-[1400px] m-auto mt-[20px] md:mt-[70px] relative">
+    <div className="flex flex-col-reverse items-center lg:items-start md:flex-row justify-between w-[80%] max-w-[1400px] m-auto mt-[20px] md:mt-[70px] relative">
       <div className="max-w-[450px] lg:w-[40%] lg:min-w-[450px] pt-[50px]" data-aos="fade-right">
         <h1 className="text-[44px] font-bold font-gothic pb-[25px] leading-[123%]">
           Your Trusted Expert Mehanic, Based in <br />
@@ -18,7 +16,7 @@ const Hero = () => {
         <div className="flex items-center">
           <ContactButton mainColor="black" secondaryColor="white" color="black" />
           <Link href="#services">
-            <button className="flex items-center ml-[25px] hover:ml-[30px] transition-all ">
+            <button className="flex items-center ml-[25px] hover:ml-[30px] transition-all drop-shadow-md">
               <p className="pr-[11px] font-gothic font-[16px] font-bold text-[#407AC1]">Services</p>
 
               <Image
@@ -37,7 +35,7 @@ const Hero = () => {
         <div
           className="flex md:ml-[20px] lg:ml-[0px] h-[100px] mb-[20px] min-w-[223px] xl:mb-0 justify-between items-center flex-col"
           data-aos="fade-down">
-          <Image src="/star.png" alt="me" width="29px" height="29px" layout="fixed" />
+          <Image src="/Star.png" alt="me" width="29px" height="29px" layout="fixed" />
           <p className="font-roboto text-[#00000090] text-center">
             Profiessional Approach to Work <br /> & Respect for Reservations
           </p>
@@ -45,7 +43,7 @@ const Hero = () => {
         <div
           className="flex md:ml-[20px] lg:ml-[0px] h-[100px] min-w-[223px] justify-between items-center flex-col"
           data-aos="fade-down">
-          <Image src="/avatars.svg" alt="me" width="165px" height="33px" layout="fixed" />
+          <Image src="/avatars.png" alt="me" width="128px" height="37px" layout="fixed" />
           <p className="font-roboto text-[#00000090] text-center">
             Profiessional Approach to Work <br /> & Respect for Reservations
           </p>
@@ -54,7 +52,7 @@ const Hero = () => {
       <div
         className="hidden lg:block absolute w-[80%] max-w-[950px] mt-[35px] right-[-100px] bottom-[-140px]"
         data-aos="fade-left">
-        <Image src="/Car.png" alt="me" width="930px" height="400px" />
+        <Image src="/Car.png" alt="me" width="934px" height="398px" />
       </div>
     </div>
   );

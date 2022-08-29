@@ -11,7 +11,8 @@ const ScrollBackToTop = () => {
       } else {
         setscrollShow(false);
       }
-    });
+    }),
+      { passive: true };
   }, []);
   return (
     <>
@@ -23,7 +24,7 @@ const ScrollBackToTop = () => {
               initial={{ y: '50px', opacity: 0 }}
               animate={{ y: '0px', opacity: 1 }}
               exit={{ y: '50px', opacity: 0 }}
-              className="w-[50px] h-[50px] bg-[black] rounded-full fixed bottom-5 right-5 z-10">
+              className="w-[50px] h-[50px] bg-[black] rounded-full fixed bottom-5 right-5 z-10 hover:animate-bounce">
               <Image
                 layout="fill"
                 className="object-center object-cover pointer-events-none"
