@@ -38,8 +38,14 @@ const Footer = () => {
         <div className="leading-8 text-center md:text-start pb-[40px]" data-aos="fade-up">
           <h1 className="text-[14px] font-roboto text-[#407AC1] font-semibold">CONTACT</h1>
           <p className="text-[14px] font-roboto text-[#00000090]">455 Lentz Ct Lansing, MI 48917</p>
-          <p className="text-[14px] font-roboto text-[#00000090]">(517) 897-8136</p>
-          <p className="text-[14px] font-roboto text-[#00000090]">sasha@repair.com</p>
+          <a className="text-[14px] font-roboto text-[#00000090]" href="tel:(517) 897-8136">
+            (517) 897-8136
+          </a>
+          <p>
+            <a className="text-[14px] font-roboto text-[#00000090]" href="mailto:sasha@repair.com">
+              sasha@repair.com
+            </a>
+          </p>
           <p className="text-[14px] font-roboto ">Mon - Sun: 9AM - 7PM</p>
         </div>
         <div

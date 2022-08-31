@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 const Service = () => {
   return (
-    <div className="w-[80%] m-auto" id="services">
+    <div className="w-[80%] m-auto hover:translate-y-6" id="services">
       <h2 className="text-center text-[44px] font-gothic text-bold pb-[75px]" data-aos="fade-up">
         Our <span className="text-[#407AC1]">Services</span>
       </h2>
       <div className="flex lg:justify-around flex-col lg:flex-row items-center">
         <div className="w-[240px] flex flex-col md:flex-row md:w-[100%] lg:flex-col md:justify-between">
-          <div className="md:px-[10px]" data-aos="fade-up">
+          <div className="md:px-[10px] " data-aos="fade-up">
             <h1 className="text-[18px] font-bold text-[#407AC1] pb-[10px]">Auto Mechanic</h1>
             <p className="text-[14px] font-roboto leading-[21px] text-[#00000090] pb-[40px]">
               You can rest assured that we use the highest quality products and equipment to service
